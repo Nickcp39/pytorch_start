@@ -40,12 +40,12 @@ class MyData(Dataset):
 
 
 
-dir_path = "C:\\Users\\nickc\PycharmProjects\\buffaloTestProject\\dataset\\hymenoptera_data\\hymenoptera_data\\train\\ants"
+dir_path = "/dataset/hymenoptera_data/hymenoptera_data/train/ants"
 img_path_list = os.listdir(dir_path)
 
 # root_dir =  "C:\\Users\\nickc\PycharmProjects\\buffaloTestProject\\dataset\\hymenoptera_data\\hymenoptera_data\\train"
 
-root_dir = "./dataset/hymenoptera_data/hymenoptera_data/train"
+root_dir = "../dataset/hymenoptera_data/hymenoptera_data/train"
 
 
 ants_label_dir = "ants"

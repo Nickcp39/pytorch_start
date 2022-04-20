@@ -6,9 +6,9 @@ from torch.utils.tensorboard import SummaryWriter  #导入tensorboard 导入常�
 import numpy as np     #是为了读取图片用numpy型
 from PIL import Image
 
-writer = SummaryWriter("logs")  # 创建一些实例
+writer = SummaryWriter("../logs")  # 创建一些实例
 
-image_path = "./dataset/train/ants_image/6240329_72c01e663e.jpg"
+image_path = "../dataset/train/ants_image/6240329_72c01e663e.jpg"
 image_path = 'dataset/train/ants_image/0013035.jpg'
 img_PIL = Image.open(image_path)
 img_array = np.array(img_PIL)
