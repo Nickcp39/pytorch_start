@@ -34,3 +34,7 @@ if __name__ == "__main__":
     input = torch.ones((64,3,32,32))
     output =  tudui(input)
     print(output.shape )
+    """
+    output  = torch.Size([64, 10])
+    64个数据， 每个数据上边10个数据点， 10个数据代表每个图片在10个不同的类别中， 的存在概率。 picture01  = [0.1,0.1,0.1,。。。。。。1] =  意味着p1 图对于分类在10个中的概率分别都为0.1 
+    """

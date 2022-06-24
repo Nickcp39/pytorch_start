@@ -20,7 +20,7 @@ import numpy as np
 # torch.manual_seed(1)    # reproducible
 
 # Hyper Parameters
-EPOCH = 100
+EPOCH = 15
 BATCH_SIZE = 64
 LR = 0.005        # learning rate
 DOWNLOAD_MNIST = False
